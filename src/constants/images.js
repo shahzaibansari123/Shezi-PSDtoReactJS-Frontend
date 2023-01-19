@@ -29,3 +29,30 @@ import equipmentfacilities from "../assets/equipment&facilities.png";
 
 import contact from "../assets/contact.png";
 import contact2x from "../assets/contact2x.png";
+
+export default {
+  logo,
+  logo2x,
+  logosvg,
+  logosvg2x,
+  main,
+  main2x,
+  profile,
+  profile2x,
+  profile2,
+  profile22x,
+  productservices,
+  productservices2x,
+  productservices2,
+  productservices22x,
+  project1,
+  project12x,
+  project2,
+  project22x,
+  project3,
+  project32x,
+  equipmentfacilities,
+  equipmentfacilities2x,
+  contact,
+  contact2x,
+};
