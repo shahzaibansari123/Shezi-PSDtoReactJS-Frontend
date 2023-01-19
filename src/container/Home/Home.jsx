@@ -1,9 +1,10 @@
 import React from 'react'
 // import {images} from '../../constants'
+import './Home.css'
 
 const Home = () => {
   return (
-    <div style={{backgroundColor: "lightblue" , height: "100vh" }}>
+    <div className='home'>
       
       home
     </div>
