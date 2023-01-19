@@ -14,7 +14,7 @@ const Navbar = () => {
   <ul className="app__navbar-links">
     {["Company Profile", "Product and Services", "Projects", "Technical Capabilities", "Equipments and Facilities", "Contact us"].map((item) => (
       <li className="lmn" key={`link-${item}`}>
-        <a className="abc" href={`#${item}`}>{item}</a>
+        <a className="abc" href={`${item}`}>{item}</a>
       </li>
     ))}
   </ul>

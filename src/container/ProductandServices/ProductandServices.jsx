@@ -2,7 +2,10 @@ import React from 'react'
 
 const ProductsandServices = () => {
   return (
-    <div>ProductsandServices</div>
+    <div style={{backgroundColor: "blue" , height: "100vh" }}>
+      
+    Product and Services
+  </div>
   )
 }
 

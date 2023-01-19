@@ -4,9 +4,9 @@ import "./App.css";
 import {
   Home,
   CompanyProfile,
-  ProductsandServices,
+  ProductandServices,
   TechnicalCapabilities,
-  EquipmentsandFacilities,
+  EquipmentandFacilities,
   Contactus,
   Projects,
 } from "./container";
@@ -19,31 +19,32 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/CompanyProfile" element={<CompanyProfile />} />
+          <Route path="/Company Profile" element={<CompanyProfile />} />
           <Route
-            path="/ProductsandServices"
-            element={<ProductsandServices />}
+            path="/Product and Services"
+            element={<ProductandServices />}
           />
           <Route path="/Projects" element={<Projects />} />
           <Route
-            path="/TechnicalCapabilities"
+            path="/Technical Capabilities"
             element={<TechnicalCapabilities />}
           />
           <Route
-            path="/EquipmentsandFacilities"
-            element={<EquipmentsandFacilities />}
+            path="/Equipment and Facilities"
+            element={<EquipmentandFacilities />}
           />
-          <Route path="/Contactus" element={<Contactus />} />
+          <Route path="/Contact us" element={<Contactus />} />
           <Route path="/*" element={<Home />} />
         </Routes>
       </BrowserRouter>
-      {/* <Home />
+      
+      {/* <Home /> */}
       <CompanyProfile />
-      <ProductsandServices />
+      <ProductandServices />
       <Projects />
       <TechnicalCapabilities />
-      <EquipmentsandFacilities />
-      <Contactus /> */}
+      <EquipmentandFacilities />
+      <Contactus />
     </div>
   );
 }

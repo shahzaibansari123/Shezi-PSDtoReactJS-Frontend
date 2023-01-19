@@ -3,7 +3,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div style={{backgroundColor: "lightblue" , height: "100vh"}}>
+    <div style={{backgroundColor: "lightblue" , height: "100vh" }}>
       
       home
     </div>
