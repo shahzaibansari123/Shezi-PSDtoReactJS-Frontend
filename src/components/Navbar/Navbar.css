@@ -1,0 +1,86 @@
+.app__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: #ffffffc5;
+  /* backdrop-filter: blur(4px); */
+  /* -webkit-backdrop-filter: blur(4px); */
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  position: absolute;
+  /* z-index: 2; */
+}
+
+.app__navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  background-color: blue;
+  margin-left: 5%;
+}
+
+.logo{
+  position: absolute;
+  
+  z-index: 1;
+  margin-top: 50px;
+/* margin-top: 30px; */
+    width: 200px;
+    height: 80px;
+    /* z-index: -1; */
+
+
+    @media screen and (min-width: 2000px) {
+      width: 180px;
+      height: 100px;
+
+    }
+  
+}
+
+.app__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+margin: 0 0 0 10%;
+
+}
+
+.lmn {
+  margin: 0 1rem;
+
+  flex-direction: column;
+  cursor: pointer;
+
+  font-size: 0.8rem;
+  text-align: left;
+  color: gray;
+  line-height: 1.5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.abc {
+  color: gray;
+  text-decoration: none;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+
+ 
+}
+
+.abc:hover {
+  color: blue;
+}
+
