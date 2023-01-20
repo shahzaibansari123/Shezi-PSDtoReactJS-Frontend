@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-// import { motion } from "framer-motion";
-
 import { images } from "../../constants";
+import "./Navbar.css";
 
 const links = [
   { path: "/CompanyProfile", label: "Company Profile", id: 1 },
@@ -15,7 +13,7 @@ const links = [
   { path: "/Contactus", label: "Contact us", id: 6 },
 ];
 
-const dropdownMenu = [{ name: "Partners", link: "/option-1" }];
+const dropdownMenu = [{ name: "Partners", link: "/Partners" }];
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -44,15 +42,16 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(link)}
             onMouseLeave={handleMouseLeave}
           >
- 
             <Link className="labels" to={link.path}>
               {link.label}
             </Link>
             {showDropdown && currentItem === link && link.id === 4 && (
               <ul className="dropdown-menu">
                 {dropdownMenu.map((option) => (
-                  <li key={option.name}>
-                    <img src={images.logosvg} alt="svg" className="svg"  />
+                  <li key={option.name}
+                  
+              >
+                    <img src={images.logosvg} alt="svg" className="svg" />
                     <a className="dropdown-item" href={option.link}>
                       {option.name}
                     </a>
@@ -67,22 +66,17 @@ const Navbar = () => {
       <div className="navbar-toggle">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
         {toggle && (
-   
-          <div  className="toggle-div">
+          <div className="toggle-div">
             <HiX onClick={() => setToggle(false)} />
             <ul className="toggle-menu">
               {links.map((link) => (
-                <li
-                  className="togglemenu-links"
-                  key={link.path}
-                >
+                <li className="togglemenu-links" key={link.path}>
                   <Link className="togglemenu-labels" to={link.path}>
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-     
           </div>
         )}
       </div>
