@@ -15,36 +15,39 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="app">
-      <Navbar />
       <BrowserRouter>
+      <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/Company Profile" element={<CompanyProfile />} />
+          <Route path="/CompanyProfile" element={<CompanyProfile />} />
           <Route
-            path="/Product and Services"
+            path="/ProductandServices"
             element={<ProductandServices />}
           />
           <Route path="/Projects" element={<Projects />} />
           <Route
-            path="/Technical Capabilities"
+            path="/TechnicalCapabilities"
             element={<TechnicalCapabilities />}
           />
           <Route
-            path="/Equipment and Facilities"
+            path="/EquipmentandFacilities"
             element={<EquipmentandFacilities />}
           />
-          <Route path="/Contact us" element={<Contactus />} />
+          <Route path="/Contactus" element={<Contactus />} />
           <Route path="/*" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+     
       
       {/* <Home /> */}
-      <CompanyProfile />
+      
+      {/* <CompanyProfile />
       <ProductandServices />
       <Projects />
       <TechnicalCapabilities />
       <EquipmentandFacilities />
-      <Contactus />
+      <Contactus /> */}
+
+      </BrowserRouter>
     </div>
   );
 }

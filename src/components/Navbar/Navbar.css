@@ -1,93 +1,107 @@
-.app__navbar {
+.navbar {
   width: 100%;
+  height: 11.2vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background: #ffffffc5;
-  /* backdrop-filter: blur(4px); */
-  /* -webkit-backdrop-filter: blur(4px); */
-  /* border: 1px solid rgba(255, 255, 255, 0.18); */
   position: absolute;
-  /* z-index: 2; */
+
+  /* border: 2px solid red; */
 }
 
-.app__navbar-logo {
+.navbar-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  background-color: blue;
   margin-left: 5%;
+  margin-right: 5%;
+
+  /* border: 2px solid red; */
 }
 
-.logo{
+.logo {
   position: absolute;
-  
   z-index: 1;
   margin-top: 50px;
-/* margin-top: 30px; */
-    width: 200px;
-    height: 80px;
-    /* z-index: -1; */
+  width: 220px;
+  height: 80px;
 
-
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 100px;
-
-    }
-  
+  /* border: 2px solid red; */
 }
 
-.app__navbar-links {
+.navbar-links {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-
   list-style: none;
-margin: 0 0 0 10%;
+  margin: 0 0 0 15%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 
+  /* border: 2px solid red; */
 }
 
-.lmn {
-  margin: 0 1rem;
-
-  flex-direction: column;
+.links {
+  margin: 0px 25px 0px 25px;
   cursor: pointer;
-
+  padding: 2px;
   font-size: 0.8rem;
-  text-align: left;
-  color: gray;
-  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  /* border: 2px solid red; */
 }
 
-
-
-.abc {
-  color: gray;
+.labels {
+  color: rgb(0, 0, 0);
   text-decoration: none;
   flex-direction: column;
   text-transform: uppercase;
-  font-weight: 500;
-  transition: all 0.3s ease-in-out;
-
+  font-weight: 700;
  
+  /* border: 2px solid red; */
 }
 
-.abc:hover {
-  color: blue;
+.labels:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+
+  /* border: 2px solid red; */
 }
 
-.dropdown{
+.dropdownmenu {
+  position: absolute;
+  top: 70%;
+  left: 61%;
+  list-style: none;
+  
+  /* border: 2px solid red; */
+}
 
-    position: absolute;
-    top: 100%;
-    /* left: 0; */
-    z-index: 1000;
-  }
+.dropdownitem{
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: #ED8C22;
+  width: 200%;
+  padding: 10px;
+  opacity: 0.7;
+
+  /* border: 2px solid red; */
+
+}
+
+.svg {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  bottom: 40px;
+  right: 100%;
+
+  /* border: 2px solid red; */
+}
