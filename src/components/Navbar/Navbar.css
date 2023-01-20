@@ -52,7 +52,6 @@
   color: rgb(0, 0, 0);
   font-weight: bold;
 
-
   /* border: 2px solid red; */
 }
 
@@ -62,7 +61,7 @@
   flex-direction: column;
   text-transform: uppercase;
   font-weight: 700;
- 
+
   /* border: 2px solid red; */
 }
 
@@ -73,27 +72,26 @@
   /* border: 2px solid red; */
 }
 
-.dropdownmenu {
+.dropdown-menu {
   position: absolute;
   top: 70%;
   left: 61%;
   list-style: none;
-  
+
   /* border: 2px solid red; */
 }
 
-.dropdownitem{
+.dropdown-item {
   display: flex;
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  background-color: #ED8C22;
+  background-color: #ed8c22;
   width: 200%;
   padding: 10px;
   opacity: 0.7;
 
   /* border: 2px solid red; */
-
 }
 
 .svg {
@@ -104,4 +102,80 @@
   right: 100%;
 
   /* border: 2px solid red; */
+}
+
+.navbar-toggle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:  #ed8c22;
+}
+
+.toggle-div {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  padding: 1rem;
+
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  /* background: url("../../assets/bgWhite.png"); */
+  background-color: white;
+  background-size: cover;
+  background-repeat: repeat;
+  box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+}
+
+.toggle-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.togglemenu-links {
+  margin: 1rem;
+}
+
+.togglemenu-labels {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 900px) {
+
+  
+  .navbar-toggle {
+    display: none;
+  }
+
+  .toggle-div {
+    display: none;
+  }
+
+}
+@media screen and (max-width: 900px) {
+
+.navbar-links{
+  display: none;
+}
 }
