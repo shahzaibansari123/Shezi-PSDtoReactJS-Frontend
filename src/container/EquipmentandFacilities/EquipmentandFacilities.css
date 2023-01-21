@@ -30,13 +30,26 @@
 .ef-content button {
   cursor: pointer;
   margin-top: 3%;
-
   background-color: transparent;
   color: #ed8c22;
   border: 0px;
+
+  display: none;
 }
 
 .ef-content button:hover {
-  opacity: 0.6;
-  transition: 0.4s all ease-in-out;
+  opacity: 0.8;
+  transition: 0.8s all ease-in-out;
 }
+
+.hover-effect:hover {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+  transition: all 0.4s ease-in-out;
+}
+
+.ef-container:hover button {
+  display: inline-block;
+  transition: all 0.8s ease-in-out;
+}
+

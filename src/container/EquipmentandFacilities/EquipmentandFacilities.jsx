@@ -6,7 +6,7 @@ import { images } from '../../constants'
 const EquipmentsandFacilities = () => {
   return (
    <div id="equipmentandfacilities">
-    <div className='ef-container'>
+    <div className='ef-container hover-effect'>
       <div className="ef-content">
       <img src={images.logosvg} height="50px" width="50px"/>
       <p>EQUIPMENT AND FACILITIES</p>
