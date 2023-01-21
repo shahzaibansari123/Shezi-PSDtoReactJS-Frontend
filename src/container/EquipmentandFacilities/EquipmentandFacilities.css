@@ -1,0 +1,42 @@
+#equipmentandfacilities {
+  height: 100vh;
+  width: 100%;
+}
+
+.ef-container {
+  background-image: url("../../assets/equipmentfacilities.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0% 8%;
+  height: 100vh;
+  position: relative;
+}
+
+.ef-content {
+  position: relative;
+  top: 30%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ef-content p {
+  margin-top: 3%;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+}
+
+.ef-content button {
+  cursor: pointer;
+  margin-top: 3%;
+
+  background-color: transparent;
+  color: #ed8c22;
+  border: 0px;
+}
+
+.ef-content button:hover {
+  opacity: 0.6;
+  transition: 0.4s all ease-in-out;
+}

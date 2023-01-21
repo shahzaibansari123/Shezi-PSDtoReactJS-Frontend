@@ -3,10 +3,10 @@ import { AiOutlineSearch } from "react-icons/ai";
 import {
   CompanyProfile,
   ProductandServices,
+  Projects,
   TechnicalCapabilities,
   EquipmentandFacilities,
   // Contactus,
-  Projects,
 } from "../../container";
 import {Navbar, Footer} from '../../components'
 import "./Home.css";
@@ -63,6 +63,7 @@ const Home = () => {
       <Projects />
       <TechnicalCapabilities />
       <EquipmentandFacilities />
+      
 
       <Footer />
     </>
