@@ -52,7 +52,6 @@
 }
 
 .list :nth-child(2) {
-  border: 2px solid red;
   font-size: 1.2rem !important;
   color: rgb(144, 130, 130);
   font-weight: 500;
