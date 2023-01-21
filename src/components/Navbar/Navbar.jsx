@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link  } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { images } from "../../constants";
 import "./Navbar.css";
@@ -16,7 +16,6 @@ const links = [
 const dropdownMenu = [{ name: "Partners", link: "#blank" }];
 
 const Navbar = () => {
-
   const [showDropdown, setShowDropdown] = useState(false);
   const [currentItem, setCurrentItem] = useState();
   const [toggle, setToggle] = useState(false);
@@ -43,12 +42,10 @@ const Navbar = () => {
             onMouseEnter={() => handleMouseEnter(link)}
             onMouseLeave={handleMouseLeave}
           >
-           
             <Link className="labels" to={link.path}>
               {link.label}
             </Link>
 
-         
             {showDropdown && currentItem === link && link.id === 4 && (
               <ul className="dropdown-menu">
                 {dropdownMenu.map((option) => (

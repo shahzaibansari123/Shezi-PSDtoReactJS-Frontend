@@ -8,7 +8,7 @@ import {
   EquipmentandFacilities,
   // Contactus,
 } from "../../container";
-import {Navbar, Footer} from '../../components'
+import { Navbar, Footer } from "../../components";
 import "./Home.css";
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div id="home">
         <div className="home-container">
           <div>
@@ -63,9 +63,9 @@ const Home = () => {
       <Projects />
       <TechnicalCapabilities />
       <EquipmentandFacilities />
-      
+      {/* <Contactus /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

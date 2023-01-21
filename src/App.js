@@ -1,13 +1,12 @@
-// import { Navbar } from "./components";
 import "./App.css";
 import {
   Home,
   CompanyProfile,
   ProductandServices,
+  Projects,
   TechnicalCapabilities,
   EquipmentandFacilities,
   Contactus,
-  Projects,
 } from "./container";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

@@ -1,7 +1,7 @@
 import React from "react";
-import "./Projects.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { images } from "../../constants";
+import "./Projects.css";
 
 const Projects = () => {
   return (
@@ -19,8 +19,8 @@ const Projects = () => {
             <div className="pline"></div>
           </div>
           <div className="p-buttondiv">
-            <button className="pbutton" type="button" onClick={()=>{}}>
-               {/* you can sure add another View Project More component and then navigate on it  */}
+            <button className="pbutton" type="button" onClick={() => {}}>
+              {/* you can sure add another View Project More component and then navigate on it  */}
               View Projects
             </button>
           </div>

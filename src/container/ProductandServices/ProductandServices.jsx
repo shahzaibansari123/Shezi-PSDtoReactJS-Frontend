@@ -1,7 +1,7 @@
 import React from "react";
-import "./ProductandServices.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { images } from "../../constants";
+import "./ProductandServices.css";
 
 const ProductsandServices = () => {
   return (

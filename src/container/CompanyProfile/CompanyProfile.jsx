@@ -1,6 +1,7 @@
 import React from "react";
 import { images } from "../../constants";
 import "./CompanyProfile.css";
+
 const CompanyProfile = () => {
   return (
     <div id="companyprofile">
@@ -17,14 +18,14 @@ const CompanyProfile = () => {
             the United States of America a Long Time Ago
           </p>
           <button type="button" className="aboutbutton" onClick={() => {}}>
-               {/* you can sure add another About More component and then navigate on it  */}
-           More About ALM
+            {/* you can sure add another About More component and then navigate on it  */}
+            More About ALM
           </button>
         </div>
 
         <div className="profileimages">
-          <img src={images.profile} className="pimage1" alt="profileimg1"/>
-          <img src={images.profile2} className="pimage2"  alt="profileimg2"/>
+          <img src={images.profile} className="pimage1" alt="profileimg1" />
+          <img src={images.profile2} className="pimage2" alt="profileimg2" />
         </div>
       </div>
     </div>
