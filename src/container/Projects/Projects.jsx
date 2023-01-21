@@ -19,7 +19,8 @@ const Projects = () => {
             <div className="pline"></div>
           </div>
           <div className="p-buttondiv">
-            <button className="pbutton" type="button">
+            <button className="pbutton" type="button" onClick={()=>{}}>
+               {/* you can sure add another View Project More component and then navigate on it  */}
               View Projects
             </button>
           </div>
