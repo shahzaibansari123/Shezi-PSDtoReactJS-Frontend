@@ -10,7 +10,7 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import equipmentfacilities from "../assets/equipmentfacilities.png";
-import contact from "../assets/contact.png";
+import footer from "../assets/footer.png";
 
 const images = {
   logo,
@@ -25,7 +25,7 @@ const images = {
   project2,
   project3,
   equipmentfacilities,
-  contact,
+  footer,
 };
 
 export default images;

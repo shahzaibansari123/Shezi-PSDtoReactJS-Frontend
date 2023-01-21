@@ -65,7 +65,7 @@ const Home = () => {
       <EquipmentandFacilities />
       {/* <Contactus /> */}
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

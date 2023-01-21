@@ -8,7 +8,7 @@ import {
   EquipmentandFacilities,
   Contactus,
 } from "./container";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter , Routes, Route } from "react-router-dom";
 
 function App() {
   return (
