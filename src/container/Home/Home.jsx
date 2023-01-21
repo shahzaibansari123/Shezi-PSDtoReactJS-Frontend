@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import {images} from '../../constants'
-import "./Home.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import {
   CompanyProfile,
@@ -10,6 +8,7 @@ import {
   Contactus,
   Projects,
 } from "../../container";
+import "./Home.css";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -26,7 +25,7 @@ const Home = () => {
   return (
     <>
       <div id="home">
-        <div className="container">
+        <div className="home-container">
           <div>
             <p className="heading1">ALM International Industrial Complex</p>
             <p className="heading2">

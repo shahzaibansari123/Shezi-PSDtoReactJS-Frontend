@@ -54,7 +54,7 @@ const Navbar = () => {
                 {dropdownMenu.map((option) => (
                   <li key={option.name}>
                     <img src={images.logosvg} alt="svg" className="svg" />
-                    {/* you can sure add another partneship component and then navogate on it  */}
+                    {/* you can sure add another partneship component and then navigate on it  */}
                     <a className="dropdown-item" href={option.link}>
                       {option.name}
                     </a>

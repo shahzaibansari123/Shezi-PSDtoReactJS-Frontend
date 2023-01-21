@@ -1,36 +1,30 @@
 import React from "react";
+import { images } from "../../constants";
 import "./CompanyProfile.css";
 const CompanyProfile = () => {
   return (
     <div id="companyprofile">
-      <div className="container1">
-        <div className="div">
-          <p className="heading11">
+      <div className="profile-container">
+        <div className="profiletext">
+          <p className="text1">
             Welcome to
             <br />
-            <span className="span1">ALM Group</span>
+            <span className="pspan1">alm group</span>
           </p>
 
-          <p className="heading21">
-            Whilst Precast Concrete Technology had been developed in Europ and
+          <p className="text2">
+            Whilst Precast Concrete Technology had been developed in Europe and
             the United States of America a Long Time Ago
           </p>
           <button type="button" className="aboutbutton" onClick={() => {}}>
-            About
+               {/* you can sure add another About More component and then navigate on it  */}
+           More About ALM
           </button>
         </div>
 
-        <div className="searchbar1">
-          {/* <input
-          type="text"
-          className="searchinput"
-          value={searchTerm}
-          onChange={handleChange}
-          placeholder="Search Al-Merakhi Projects"
-        />
-        <button type="submit" className="searchbutton" onClick={handleSubmit}>
-          <AiOutlineSearch color="white" size={25} />
-        </button> */}
+        <div className="profileimages">
+          <img src={images.profile} className="pimage1" alt="profileimg1"/>
+          <img src={images.profile2} className="pimage2"  alt="profileimg2"/>
         </div>
       </div>
     </div>

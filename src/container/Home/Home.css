@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-.container{
+.home-container{
     margin: 0% 8%;
     height: 100vh;
     position: relative;
@@ -77,10 +77,20 @@
     color: rgb(0, 0, 0);
 }
 
+/* .searchinput:active{
+    border: 0px solid;
+} */
+
 .searchbutton{
     width: 8%;
     height: 5vh;
     background-color: #ed8c22;
     border-style: none;
     border: 0px;
+    cursor: pointer;
+}
+
+.searchbutton:hover{
+    opacity: 0.5;
+    transition: all 0.4s ease-in-out;
 }
