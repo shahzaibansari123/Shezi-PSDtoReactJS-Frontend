@@ -13,7 +13,7 @@ const links = [
   { path: "/Contactus", label: "Contact us", id: 6 },
 ];
 
-const dropdownMenu = [{ name: "Partners", link: "/Partners" }];
+const dropdownMenu = [{ name: "Partners", link: "#blank" }];
 
 const Navbar = () => {
 
