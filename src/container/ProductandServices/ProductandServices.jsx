@@ -18,7 +18,7 @@ const ProductsandServices = () => {
           Precast Concrete Production.
         </p>
         <div className="maincontent">
-          <div className="leftcontent">
+          <div className="leftcontent hover-effect">
             <img className="logosvg1" src={images.logosvg} alt="svg" />
             <p className="title1">ALM AASHTO</p>
             <p className="subtitle">
@@ -27,7 +27,7 @@ const ProductsandServices = () => {
             </p>
 
             <span className="line2"></span>
-            <a href="#" className="arrow">
+            <a href="#blank" className="arrow">
               <AiOutlineArrowRight size={40} color="white" />
             </a>
           </div>

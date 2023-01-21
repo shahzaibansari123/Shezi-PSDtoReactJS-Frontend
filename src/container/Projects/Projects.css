@@ -1,0 +1,174 @@
+#projects {
+  height: 100vh;
+  width: 100%;
+}
+
+.projects-container {
+  margin: 0% 8%;
+  height: 100vh;
+
+}
+
+.ptitle {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.pheading {
+  width: 55%;
+}
+
+.htext {
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  font-weight: 500;
+  width: 100%;
+}
+
+.linediv {
+  width: 60%;
+}
+
+.pline {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 95%;
+  height: 0;
+  border: 2px solid #000000;
+  display: inline-block;
+}
+
+.p-buttondiv {
+  width: 20%;
+}
+.pbutton {
+  width: 100%;
+  height: 5vh;
+  background-color: transparent;
+  border-style: none;
+  border: 2px solid black;
+  margin: 0%;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.pbutton:hover {
+  background-color: #ed8c22;
+  transition: all 0.4s ease-in-out;
+}
+
+.projectlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+.projectitem1 {
+  background-image: url("../../assets/project1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 1%;
+  margin-left: 0%;
+  height: 70vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+.projectitem2 {
+  background-image: url("../../assets/project2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 1%;
+  margin-left: 1%;
+  height: 70vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+.projectitem3 {
+  background-image: url("../../assets/project3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0%;
+  margin-left: 1%;
+  height: 70vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.p-logosvg {
+  position: relative;
+  top: 8%;
+  left: 4%;
+  height: 35px;
+  width: 35px;
+  display: none;
+}
+
+.p-title {
+  margin-top: 75%;
+  margin-left: 4%;
+  margin-right: 2%;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.p-subtitle {
+  margin-top: 7%;
+  margin-left: 4%;
+  margin-right: 2%;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 1.2rem;
+  display: none;
+}
+
+.p-line {
+  margin-top: 7%;
+  margin-left: 4%;
+  width: 50%;
+  height: 0;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  display: none;
+}
+
+.p-arrow {
+  margin-right: 0%;
+  margin-left: 86%;
+  margin-top: -5.5%;
+  transition: all 0.4s ease-in-out;
+  width: 50px;
+  display: none;
+}
+
+/* //hover effect  */
+.hover-effect:hover {
+  background-color: black;
+  opacity: 0.8;
+  transition: all 0.4s ease-in-out;
+}
+
+.projectitem1:hover > *,
+.projectitem2:hover > *,
+.projectitem3:hover > * {
+  display: block;
+  transition: all 0.4s ease-in-out;
+}

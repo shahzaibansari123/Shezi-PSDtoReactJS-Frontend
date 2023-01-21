@@ -5,7 +5,7 @@ import {
   ProductandServices,
   TechnicalCapabilities,
   EquipmentandFacilities,
-  Contactus,
+  // Contactus,
   Projects,
 } from "../../container";
 import {Navbar, Footer} from '../../components'
