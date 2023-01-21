@@ -4,8 +4,8 @@ import logo2x from "../assets/logo2x.png";
 import logosvg from "../assets/logosvg.png";
 import logosvg2x from "../assets/logosvg2x.png";
 
-import main from "../assets/main.png";
-import main2x from "../assets/main2x.png";
+import home from "../assets/home.png";
+import home2x from "../assets/home2x.png";
 
 import profile from "../assets/profile.png";
 import profile2x from "../assets/profile2x.png";
@@ -29,14 +29,16 @@ import equipmentfacilities from "../assets/equipmentfacilities.png";
 
 import contact from "../assets/contact.png";
 import contact2x from "../assets/contact2x.png";
+import CompanyProfilebg from '../assets/CompanyProfilebg.jpg'
 
 const images={
   logo,
   logo2x,
   logosvg,
   logosvg2x,
-  main,
-  main2x,
+  home,
+  home2x,
+  CompanyProfilebg,
   profile,
   profile2x,
   profile2,

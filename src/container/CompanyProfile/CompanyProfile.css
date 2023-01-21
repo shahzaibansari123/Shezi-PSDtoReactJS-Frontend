@@ -1,0 +1,93 @@
+#companyprofile{
+    background-image: url('../../assets/CompanyProfilebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.container1{
+    margin: 0% 8%;
+    height: 100vh;
+    /* position: relative; */
+
+    border: 2px solid red;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+}
+.heading11{
+    /* position: absolute; 
+    top: 35%; */
+    margin-top: 20%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 2rem;
+    color: rgb(0, 0, 0)
+}
+
+.heading21{
+    /* position: absolute; 
+    top: 50%; */
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1;
+}
+
+
+.heading31{
+    position: absolute;
+    top: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: -10px;
+}
+
+.span1{
+    color:  #ed8c22;
+}
+
+.span21{
+    color:  #ed8c22;  
+    font-size: 2.2rem;
+    margin-left: -5px;
+ 
+}
+
+.searchbar1{
+    position: absolute;
+    top: 90%;
+    width: 50%; 
+    margin: 0% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchinput{
+    width: 100%;
+    height: 5vh;
+    opacity: 0.7;
+    padding: 1rem;
+    border-style: none;
+    border: 0px;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.aboutbutton{
+    width: 18%;
+    height: 5vh;
+    background-color: #ed8c22;
+    border-style: none;
+    border: 0px;
+}

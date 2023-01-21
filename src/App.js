@@ -1,5 +1,4 @@
 import { Navbar } from "./components";
-
 import "./App.css";
 import {
   Home,
@@ -16,14 +15,11 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-      <Navbar />
+        <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/CompanyProfile" element={<CompanyProfile />} />
-          <Route
-            path="/ProductandServices"
-            element={<ProductandServices />}
-          />
+          <Route path="/ProductandServices" element={<ProductandServices />} />
           <Route path="/Projects" element={<Projects />} />
           <Route
             path="/TechnicalCapabilities"
@@ -36,17 +32,6 @@ function App() {
           <Route path="/Contactus" element={<Contactus />} />
           <Route path="/*" element={<Home />} />
         </Routes>
-     
-      
-      {/* <Home /> */}
-      
-      {/* <CompanyProfile />
-      <ProductandServices />
-      <Projects />
-      <TechnicalCapabilities />
-      <EquipmentandFacilities />
-      <Contactus /> */}
-
       </BrowserRouter>
     </div>
   );
