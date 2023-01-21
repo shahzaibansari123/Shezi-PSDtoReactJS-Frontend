@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./TechnicalCapabilities.css";
+
 import { images } from "../../constants";
+import "./TechnicalCapabilities.css";
 
 const TechnicalCapabilities = () => {
   const [employees, setEmployees] = useState(50);
